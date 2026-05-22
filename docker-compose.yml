@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  defilens:
+    build: .
+    ports:
+      - "8420:8420"
+    environment:
+      - DEFI_LENS_API_KEY=${DEFI_LENS_API_KEY}
+      - COINGECKO_API_KEY=${COINGECKO_API_KEY}
+    volumes:
+      - defilens-data:/root/.defilens
+    restart: unless-stopped
+
+volumes:
+  defilens-data:
