@@ -4,10 +4,10 @@
 
 **Cross-chain DeFi portfolio tracker with yield analytics and real-time monitoring**
 
-[![CI](https://github.com/BankJAY/defilens/actions/workflows/ci.yml/badge.svg)](https://github.com/BankJAY/defilens/actions)
+[![CI](https://github.com/niha-devcreator/defilens/actions/workflows/ci.yml/badge.svg)](https://github.com/niha-devcreator/defilens/actions)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.2.0-purple.svg)](https://github.com/BankJAY/defilens/releases)
+[![Version](https://img.shields.io/badge/version-1.2.0-purple.svg)](https://github.com/niha-devcreator/defilens/releases)
 
 Track DeFi positions across **6 EVM chains**, discover yield opportunities via **10+ protocols**, and get real-time alerts — all from your terminal or API.
 
@@ -36,7 +36,7 @@ pip install defilens
 ### From source
 
 ```bash
-git clone https://github.com/BankJAY/defilens.git
+git clone https://github.com/niha-devcreator/defilens.git
 cd defilens
 pip install -e ".[dev]"
 ```
